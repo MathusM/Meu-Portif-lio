@@ -1,0 +1,14 @@
+
+
+html {
+    overflow: scroll;
+}
+
+body {
+    overflow: hidden;
+    background: rgb(242, 245, 255);
+}
+
+footer {
+    text-align: center;
+}

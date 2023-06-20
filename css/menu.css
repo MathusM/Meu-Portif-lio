@@ -1,0 +1,154 @@
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__logo-titulo {
+    font-family: 'Dancing Script', cursive;
+}
+
+.menu__navegacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__navegacao-links {
+    font-family: 'PT Serif', serif;
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+}
+
+.menu__navegacao-links:hover {
+    text-decoration:underline;
+}
+
+#contato-id {
+    font-family: 'Raleway', sans-serif;
+    text-transform: lowercase;
+}
+
+
+
+
+
+
+/*MOBILE*/
+
+@media screen and (max-width: 659.9px) {
+    .menu {
+        justify-content: space-between;
+        padding: 10px 15px;
+        margin-bottom: 20px;
+        flex-direction: row;
+    }
+    .menu__logo-titulo {
+        font-size: 16px;
+        
+    }
+
+    .menu__navegacao {
+        
+        justify-content: flex-end;
+    }
+
+    .menu__navegacao-links{
+        display: none;
+    }
+
+    #contato-id {
+        display: block;
+        font-size: 10px;
+        align-self: flex-end;
+    }
+}
+
+/*MOBILE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TABLET*/
+
+@media screen and (min-width: 660px ){
+    .menu {
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .menu__navegacao-links {
+        display: none;
+    }
+    #contato-id {
+        display: block;
+        font-size: 20px;
+    }
+    #cabecalho-id {
+        padding: 5px 40px;
+    }
+
+    .menu__logo-titulo {
+        font-size: 2.7rem;
+    }
+}
+
+
+/*TABLET*/
+
+
+
+
+
+
+
+
+
+
+
+/*DESKTOP*/
+    
+@media screen and (min-width: 1000px) {
+    .menu {
+        justify-content: space-between;
+        padding-left: 100px;
+        padding-right: 80px;
+        padding-top: 20px;
+
+        margin-top: 20px;
+        margin-bottom: 50px;
+
+    }
+    .menu__logo-titulo {
+        width: 14rem;
+        font-size: 22px;
+        margin-left: 15%;
+    }
+    #contato-id {
+        font-size: 16px;
+    }
+    .menu__navegacao {
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .menu__navegacao-links {
+
+        display:inline-flex;
+    }
+}
+
+
+/*DESKTOP*/
+
+

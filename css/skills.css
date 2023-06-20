@@ -1,0 +1,155 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.skills__list {
+    width: 50%;
+    display: flex;
+}
+
+.skills__titulo {
+    color: rgb(56, 56, 56);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    align-self: center;
+    margin: 60px;
+}
+
+.skills__list-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+    width: 6.2rem;
+    height: 6.2rem;
+
+    transition: 1s all;
+
+    
+    border-radius: 10px;
+    box-shadow: 0 8px 8px;
+}
+
+.skills__list-element:hover {
+    transform: scale(1.2);
+    background: #82fef4;
+}
+
+.skills__list-element i svg{
+    width: 3rem;
+    height: 3rem;
+}
+
+.skills__list-element h2 {
+    text-align: end;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+/* MOBILE */
+@media screen and (max-width: 659.9px) {
+
+    .skills__titulo {
+        font-size: 1.8rem;
+    }
+
+    .skills__list {
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .skills__list-element {
+        width: 4rem;
+        height: 4rem;
+        background: #a6fa9e;
+
+        margin-bottom: 30px;
+    }
+
+    .skills__list-element h2 {
+        font-size: 1.2rem;
+    }
+}
+
+/* MOBILE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TABLET*/
+@media screen and (min-width: 660px) {
+    .skills {
+        padding: 60px 0;
+    }
+    .skills__titulo {
+        font-size: 2.5rem;
+    }
+    .skills__list-element {
+        background: #a6fa9e;
+    }
+    .skills__list {
+        width: 80%;
+        justify-content: space-around;
+    }
+}
+
+/*TABLET*/
+
+
+
+
+
+
+
+
+
+/*DESKTOP*/
+@media screen and (min-width: 1000px) {
+    .skills__list-element {
+        background: #a6fa9e;
+        height: 8rem;
+        width: 8rem;
+    }
+    .skills {
+        margin-bottom: 100px;
+    }
+    .skills__list {
+        width: 50%;
+    }
+    .skills__list-element i svg{
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .skills__list-element h2 {
+        font-size: 1.7rem;
+    }
+}
+    
+
+
+
+
+/*DESKTOP*/
+

@@ -1,0 +1,151 @@
+.formacao {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(188, 255, 184), rgb(163, 217, 255));
+
+}
+
+.formacao__titulo {
+    color: rgb(56, 56, 56);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.formacao__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formacao__list-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(240, 242, 255);
+    box-shadow:  0 5px 6px;
+
+    border-radius: 20px;
+    border: 1px solid rgb(198, 202, 255);
+}
+
+.formacao__list-element i img {
+    width: 200px;
+    height: 100px;
+}
+
+.formacao__list-element h2 {
+    color: rgb(48, 48, 48);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.formacao__list-element p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+
+
+
+
+/*MOBILE*/
+@media screen and (max-width: 659.9px ){
+    .formacao {
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .formacao__titulo {
+        font-size: 2.1rem;
+        margin: 40px;
+    }
+    .formacao__list {
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+    }
+    .formacao__list-element {
+        width: 200px;
+        height: 150px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .formacao__list-element h2 {
+        font-size: 1.2rem;
+    }
+
+    .formacao__list-element i img {
+        margin-bottom: 10px;
+    }
+}
+
+
+/*MOBILE*/
+
+
+
+/*TABLET*/
+@media screen and (min-width: 660px){
+    .formacao {
+        padding: 30px;
+        margin-top:80px;
+    }
+    .formacao__titulo {
+        font-size: 2.7rem;
+        margin: 40px;
+    }
+    .formacao__list {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .formacao__list-element {
+        width: 300px;
+        height: 150px;
+        padding: 40px;
+
+        margin-bottom: 50px;
+    }
+
+    .formacao__list-element i img {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+
+/*TABLET*/
+
+/*DESKTOP*/
+@media screen and (min-width: 1000px){
+    .formacao {
+        align-items: center;
+        padding: 50px;
+        margin-top:150px;
+    }
+    .formacao__titulo {
+        font-size: 2.1rem;
+    }
+    .formacao__list {
+        justify-content: space-around;
+
+         width: 60%;
+    }
+    .formacao__list-element{
+        width: 300px;
+        height: 150px;
+        padding: 40px;
+    }
+}
+
+
+
+/*DESKTOP*/
